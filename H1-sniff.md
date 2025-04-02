@@ -58,7 +58,7 @@ Internet Layer: Internet Protocol Version 4
 
 Transport Layer: Transmission Control Protocol(TCP)
 
-Application Layer: Transport Layer Security(TCP)
+Application Layer: Transport Layer Security(TLS)
 
 ![h1/four-layers.png](h1/four-layers.png)
 
