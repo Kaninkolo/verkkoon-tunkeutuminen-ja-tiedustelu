@@ -110,7 +110,7 @@ After that I decided to visit Google.com and capture data, it showed significant
 
 I captured data from opening a new tab in firefox.
 
-It captured 36 packets, capture length was around 1 second, protocols include: TLSv1.2, TCP, DNS and plain HTTP. Source is the where data is coming from and Destination the where it is going,if it is local ip address it will show the network interfaces ip so in my case 10.0.2.15. 
+It captured 36 packets, capture length was around 1 second, protocols include: TLSv1.2, TCP, DNS and plain HTTP. Source is the where data is coming from and Destination the where it is going, if it is local ip address it will show the network interfaces ip so in my case 10.0.2.15. Info tab shows information regarding the packet, clicking a packet open also shows the data in the packet and if it is unencrypted it might even be human readable.
 
 ## Sources:
 
