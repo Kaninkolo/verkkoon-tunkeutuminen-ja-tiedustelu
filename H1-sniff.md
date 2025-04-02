@@ -10,7 +10,7 @@ A guide to getting started with Wireshark, how to install it and some basic comm
 
 To install wireshark on Debian based distros.
 
-	sudo adduser $(whoami) wireshark
+	sudo adduser (username) wireshark
 
 To add you to the Wireshark usergroup, to allow you to launch the program
 
