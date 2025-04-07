@@ -120,7 +120,7 @@ I connected back to internet and installed Ngrep
 
 	sudo apt-get install ngrep
 
-I tried just runnning Ngrep but I have to specify the loopback adapter
+I tried scanning while running Ngrep but I have to specify the loopback adapter
 
 ![h2/ngrep-no-lo.png](h2/ngrep-no-lo.png)
 
@@ -140,7 +140,7 @@ This time I got a lot more information but I have to filter it for it to be usef
 
 ![h2/nmap-useragent.png](h2/nmap-useragent.png)
 
-I could change it to be something less inconspicuous but for making it easier to see the changes I'll use "Godzilla 9000" for now.
+I could change it to be something inconspicuous but for making it easier to see the changes I'll use "Godzilla 9000" for now.
 
 ### How did the logs change after changing the User-Agent
 
