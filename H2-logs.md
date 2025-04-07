@@ -20,7 +20,7 @@ Overview of how tough it is for an adversary to change trails and ranking them w
 
 7. Tactics, Techniques and Procedures
 
- 1. Being the easiest to change and 7. Being the hardest to change.
+'1. Being the easiest to change and 7. Being the hardest to change.
 
 ### Diamond Model
 
