@@ -4,7 +4,7 @@
 
 ### Pyramid of Pain
 
-Overview of how tough it is for an adversary to change trails and ranking them which is easy and which is hard:
+Overview of how tough it is for an adversary to change trails and ranking them which is easy and which is hard, 1. Being the easiest to change and 7. Being the hardest to change:
 
 1. Hashes
 
@@ -19,8 +19,6 @@ Overview of how tough it is for an adversary to change trails and ranking them w
 6. Tools
 
 7. Tactics, Techniques and Procedures
-
-'1. Being the easiest to change and 7. Being the hardest to change.
 
 ### Diamond Model
 
@@ -116,7 +114,6 @@ I can see multiple mentions of Nmap in the logs to specify the logs to only show
 
 I can find multiple mentions of Nmap for example User-Agent and /nmaplowercheck. I noticed at the beginning of the Wireshark pcap there is a lot of connections that do not complete the SYN, SYN ACK, ACK TCP handshake.
 
-
 ## Capture the traffic via Ngrep
 
 I connected back to internet and installed Ngrep
@@ -142,6 +139,8 @@ This time I got a lot more information but I have to filter it for it to be usef
 	sudo nmap --script-args http.useragent="Godzilla 9000"
 
 ![h2/nmap-useragent.png](h2/nmap-useragent.png)
+
+I could change it to be something less inconspicuous but for making it easier to see the changes I'll use "Godzilla 9000" for now.
 
 ### How did the logs change after changing the User-Agent
 
@@ -173,6 +172,8 @@ This time I no longer got the Nmap text to show in the logs after I ran:
 I ran the scan again with Wireshark capturing the packets and searched for Nmap in the Strings
 
 ![h2/nmap-lowercheck.png](h2/nmap-lowercheck.png)
+
+Again I used grep inside of the /usr/share/nmap
 
 	grep -ir "nmaplower"
 
