@@ -62,8 +62,37 @@ Zooming in on URH you can see the signal.
 
 ![h3/urhZoom.png](h3/urhZoom.png)
 
+I had to switch to my laptop due to a power outtage. Also I realized I was analyzing the wrong sample..
+
+![h3/urhLaptop.png](h3/urhLaptop.png)
+
+5.49s long capture, 5491580 samples, average signal power -15,2dBm.
+
+From this filename "1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz" I'll say it was recorded 2025.04.12 11:38:05 at 433,912Mhz
+
 ### From bits demodulate the signal
 
+I started by trying different modulation types and autodetecting the parameters.
+
+![h3/modulationUrh.png](h3/modulationUrh.png)
+
+![h3/modulationUrhPsk.png](h3/modulationUrhPsk.png)
+
+![h3/modulationUrhAsk.png](h3/modulationUrhAsk.png)
+
+Ask seemed to be the most coherent one having the least variance between the pauses and the data being transmitted being something and not just 1's or 0's repeated in a line.
+
+I can change the signal view from the bottom left to be 'Demodulated'
+
+![h3/demodulated.png](h3/demodulated.png)
+
+Selecting a single bit it tells me it is 520 micro seconds long.
+
+![h3/singleBit.png](h3/singleBit.png)
+
+But there seems to be some variance in it where some are 1-2 micro seconds longer.
+
+![h3/varianceBit.png](h3/varianceBit.png)
 
 ## Install and try SDR++
 
