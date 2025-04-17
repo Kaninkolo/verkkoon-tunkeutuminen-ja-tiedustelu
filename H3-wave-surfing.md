@@ -2,6 +2,14 @@
 
 ## Read and Summarize
 
+### Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs 
+
+Simple on-hands guide to Universal Radio Hacker.
+
+### Decode 433.92 MHz weather station data 
+
+A guide to analyzing and decoding data from transmitters.
+
 ## WebSDR, use WebSDR remotely.
 
 I searched for 'WebSDR' found a site listing multiple different sites, I picked the first one from the list which was: [http://websdr.ewi.utwente.nl:8901/](http://websdr.ewi.utwente.nl:8901/). 
@@ -104,8 +112,12 @@ WebSDR. Available at: [http://websdr.org/](http://websdr.org/)
 
 Karvinen, T. 2025. Network Attacks and Reconnaissance. Available at: [https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/)
 
+Hubmartin. Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs. Available at: [https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s](https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s)
+
+
+Cornelius. Decode 433.92 MHz weather station data. Available at: [https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html](https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html)
+
 Converted_433.92M_2000k.cs8 Sample file. Available at: [https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/samples/Converted_433.92M_2000k.cs8](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/samples/Converted_433.92M_2000k.cs8)
 
 Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s Sample file. Available at: [https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/samples/Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/samples/Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s)
 
-Available at
